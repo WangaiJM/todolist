@@ -8,7 +8,7 @@
       <li class="{{Request::is('/') ? 'active': ''}} nav-item ">
         <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
       </li>
-      <li class="{{Request::is('/todo/create') ? 'active': ''}} nav-item ">
+      <li class="{{Request::is('todo/create') ? 'active': ''}} nav-item ">
         <a class="nav-link" href="todo/create">Create a todo</a>
       </li>
     </ul>
