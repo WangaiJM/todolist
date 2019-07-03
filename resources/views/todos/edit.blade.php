@@ -2,7 +2,7 @@
 
 @section('content')
     
-    <form action="todo/{{$todo->id}}" method="post">
+    <form action="/todo/{{$todo->id}}" method="post">
         @csrf
         @method('PUT')
         <div class="form-group">

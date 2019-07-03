@@ -75,7 +75,7 @@ class TodosController extends Controller
      */
     public function edit($id)
     {
-        return $todo = Todo::find($id);
+        $todo = Todo::find($id);
 
         return view('todos.edit')->with('todo', $todo);
     }
